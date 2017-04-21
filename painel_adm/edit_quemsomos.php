@@ -80,9 +80,9 @@
         <div class="field-wrap">
         <h4 class="estiloH3 ">Sobre a Empresa</h4>
         <textarea name="sobreEmpr" rows="10" cols="60" wrap="virtual"></textarea>
-        </div>   
-
-          <button type="submit" value="enviar-quem-somos" class="btn btn-default">Enviar</button>
+        </div>           
+          
+          <button type="submit" value="submit" class="btn btn-default">Enviar</button>
 
         </form>
       </div>
@@ -100,11 +100,11 @@
 
 <?php 
 
+
+
   $arq_name=$_FILES['uploadfoto1']['name']; //O nome do ficheiro
   $arq_size=$_FILES['uploadfoto1']['size']; //o tamanho do ficheiro
   $arq_tmp=$_FILES['uploadfoto1']['tmp_name']; //o tamanho temporário do arquivo
- 
-
 
   $sobre=$_POST['sobreEmpr'];
 
@@ -115,8 +115,5 @@
   $textoSQL="INSERT INTO quem_somos(foto, texto) VALUES ('".$arq_name."','".$sobre."')";  
   move_uploaded_file($arq_tmp, "imagens/quem_somos/".$arq_name);
   $conecta->exec($textoSQL);
-
-
-
 
 ?>

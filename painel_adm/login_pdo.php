@@ -18,7 +18,7 @@ try {
    {
      echo "<script>
 	       alert('Dados incorretos');
-		   document.location.href=('login.php');
+		   document.location.href=('index.php');
 		   </script>";
    }
    

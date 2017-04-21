@@ -8,9 +8,7 @@
 
 			<div class="row">
 			  <div class="col-xs-12 col-md-12 col-lg-6">
-			    <a href="contato.php" class="thumbnail img">
-			     <!-- <img src="imagens/carrinho-exemplo.jpg" alt="...">
-			     <img src="imagem.php?cod_imagem=1" />-->
+			    <a href="#" class="thumbnail img">
 			     <?php
 
 			    	  $conectar=new PDO('mysql:host=127.0.0.1;port=3306;dbname=cebolinha_lanches', 'root', '');
@@ -47,11 +45,9 @@
 			    </a>
 			  </div>	
 
-			  <div class="col-xs-12 col-md-12 col-lg-6">	
-				<p class="texto">
+			  <div class="col-xs-12 col-md-12 col-lg-6">				
 					
 					<?php
-
 
 			    	  $conectar=new PDO('mysql:host=127.0.0.1;port=3306;dbname=cebolinha_lanches', 'root', '');
 					  $conectar->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -75,7 +71,6 @@
 					  		}
 
 					  			echo '<p style="color:black; font-size:16px;text-align: left;">'.$texto_sobre.' </p>';
-
 					  	
 					  }else {
 					  	echo "not ok";
@@ -83,7 +78,6 @@
 
 					?>
 
-				</p>
 			  </div>  
 			</div>
 

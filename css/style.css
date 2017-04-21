@@ -177,7 +177,8 @@
 
 .container .row .img {
 	border: 1px solid #ccc;
-}
+
+	}
 
 .container .row .img:hover {
 	border: 1px solid #633f2a;
