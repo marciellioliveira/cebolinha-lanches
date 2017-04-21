@@ -1,0 +1,242 @@
+/*GERAL*/
+::selection { background: #633f2a; color: #fff; } ::-moz-selection { background: #633f2a; color: #fff; }
+
+/*MENU*/
+.navbar-default{
+	background-color: #33cc33;
+}
+
+.iconeCor {
+	color: white;
+	font-weight: bold;
+}
+
+.navbar-default .navbar-collapse ul li a {
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.navbar-default .navbar-collapse ul li a:hover {
+	color: #adebad;
+}
+
+.navbar-default .row .thumbnail {
+	background-color: transparent;
+	border: none 0;
+	box-shadow: none;
+	
+
+}
+
+.navbar-default .navbar-collapse ul {
+	background-color: #29a329;
+	margin-top: 5%;
+	box-shadow: 5px 5px 5px #47d147;
+}
+
+.navbar-default .container .ligueja {
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+	margin-top: 3em;
+}
+
+.navbar-default .navbar-collapse p.agradece {
+	color: white;
+	font-size: 2em;
+	text-align: center;
+	padding-top: 5em;
+}
+
+/*PRIMEIRO SLIDE DO INDEX*/
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
+.icon-success {
+    color: #33cc33;
+}
+
+.jumbotron{	
+	text-align: center;
+	background-color: #33cc33;
+}
+
+.jumbotron .cardapio {
+	font-size: 50px;
+	color: white;	
+}
+
+.jumbotron .cardapio:hover {
+	color: #adebad;
+	text-decoration: none;
+}
+
+
+.jumbotron .info-cardapio {
+	color: white;
+}
+
+/*HASHTAG INDEX*/
+.container .hashtag {
+	background-color: white;
+
+}
+
+.container p.info-hashtag {
+	color: black;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.container .info-hashtag a{
+	color: black;
+}
+
+.container .info-hashtag a:hover{
+	color: #33cc33;
+}
+
+.jumbotron p {
+	color: white;
+}
+
+.fundoRodape {
+	background-color: #633f2a;
+	box-shadow: 6px 6px 5px #ccc;
+}
+
+.fundoRodape ul li {
+	
+	text-align: left;
+	list-style: none;
+	padding-left: 4em;
+}
+
+.fundoRodape ul li a {
+	color: white;
+}
+
+.rodapeDesenvolvedor .container p a {
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+/*CONTATO*/
+
+.pContato {
+	color: white;
+}
+
+.fundoContato {
+	background-color: white;
+	border: 2px solid #adebad;
+}
+
+.btnColor {
+	background-color: #33cc33;
+	border-color: #33cc33;
+	color: white;
+}
+
+.btnColor:focus, .btnColor:active, .btnColor:visited, .btnColor:hover {
+	background-color: #adebad !important; 
+	border-color: #adebad;	
+	color: white;
+}
+
+
+/*QUEM SOMOS*/
+
+.bgCor {
+	background-color: white;
+}
+
+.jumbotron .container h4.titulo {
+	text-align: left;
+	color: #633f2a;
+	font-weight: bold;
+}
+
+.jumbotron .container p.texto {
+	color: black;
+	text-align: left;
+	font-size: 17px;
+}
+
+.container .row .img {
+	border: 1px solid #ccc;
+}
+
+.container .row .img:hover {
+	border: 1px solid #633f2a;
+}
+
+/*Botão, estou usando .btnColor, o mesmo botão do contato*/
+
+/* CARDÁPIO */
+
+.tituloModal {
+	color: #633f2a;
+	font-weight: bold;
+}
+
+.panelB .tituloProduto {
+	font-weight: bold;
+}
+
+.panelB h1{
+	text-align: left;
+	font-size: 15px;
+}
+
+.panel-heading h1.tituloPanel {
+	font-size: 17px;
+	margin-top: -1px;
+	margin-bottom: -1px;
+}
+
+/*Centralizar form Painel Administrativo verticalmente*/
+.verticalC {
+	background-color: #33cc33;
+	position: absolute;
+  	top: 50%;
+  	left:50%;
+  	transform: translate(-50%,-50%);
+  	border: 2px solid #fcd19c;
+}
+
+.fundoCorpo {
+	background-color: #633f2a;
+}
+
+.esth2 {
+	margin-bottom: 50px;
+	color: white;
+}
+
+
+.fundoMenu {
+	background-color: #33cc33;
+	
+}
+
+.navbar-nav .estiloH1 {
+	padding: 5px;
+	color: white;
+	font-size: 20px;
+}
+
+.estiloH3 {
+	text-align: left;
+}
